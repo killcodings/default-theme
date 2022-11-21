@@ -1,0 +1,20 @@
+.wp-block-table {
+  .has-fixed-layout {
+    table-layout: fixed;
+    width: 100%;
+    tr {
+      &:nth-child(odd) {
+        background: #F7F7F7;
+      }
+      td {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px;
+        &:nth-child(2) {
+          text-align: end;
+        }
+      }
+    }
+  }
+
+}
